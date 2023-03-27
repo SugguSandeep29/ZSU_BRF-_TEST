@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_DEF</TOOL>
+   <SHORTTEXT>SANDEEPS: ENH. SPOT</SHORTTEXT>
+   <BADI_DATA>
+    <PGMID>R3TR</PGMID>
+    <OBJ_NAME>ZSU_PRG_ENH_SECTION</OBJ_NAME>
+    <OBJ_TYPE>PROG</OBJ_TYPE>
+    <MAIN_TYPE>PROG</MAIN_TYPE>
+    <MAIN_NAME>ZSU_PRG_ENH_SECTION</MAIN_NAME>
+    <PROGRAM>ZSU_PRG_ENH_SECTION</PROGRAM>
+    <DEF_HOOKS>
+     <ENH_HOOK_DEF_EXT>
+      <EXTID>1</EXTID>
+      <FULL_NAME>\PR:ZSU_PRG_ENH_SECTION\EX:ZSU_PRG_ENH_SECTION</FULL_NAME>
+      <ENHMODE>R</ENHMODE>
+      <DEF_UNIT>
+       <INT_TYPE>PN</INT_TYPE>
+       <INT_NAME>N-&gt;ZSU_PRG_ENH_SECTION</INT_NAME>
+       <INCLUDE>ZSU_PRG_ENH_SECTION</INCLUDE>
+      </DEF_UNIT>
+     </ENH_HOOK_DEF_EXT>
+    </DEF_HOOKS>
+   </BADI_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>C3E117D7625E1EDDAB9FD26B32F1DE8A</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>C3E117D7625E1EDDAB9FD26B32F1DE8A</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>SANDEEPS: ENH. SPOT</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>ZSU_PRG_ENH_SPOT</OBJ_NAME>
+     <CONCEPT>C3E117D7625E1EDDAB9FD26B32F1DE8A</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
